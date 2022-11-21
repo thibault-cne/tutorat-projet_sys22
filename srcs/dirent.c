@@ -6,7 +6,7 @@
 /*   By: Thibault Cheneviere <thibault.cheneviere@telecomnancy.eu>            */
 /*                                                                            */
 /*   Created: 2022/11/09 08:12:49 by Thibault Cheneviere                      */
-/*   Updated: 2022/11/09 08:48:19 by Thibault Cheneviere                      */
+/*   Updated: 2022/11/21 14:07:56 by Thibault Cheneviere                      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,5 +40,6 @@ void ft_fetch_path(const char *path) {
 
 		free(new_path);
 	}
-		
+
+	closedir(dir);
 }

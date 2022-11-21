@@ -6,7 +6,7 @@
 /*   By: Thibault Cheneviere <thibault.cheneviere@telecomnancy.eu>            */
 /*                                                                            */
 /*   Created: 2022/11/09 08:28:12 by Thibault Cheneviere                      */
-/*   Updated: 2022/11/09 08:35:16 by Thibault Cheneviere                      */
+/*   Updated: 2022/11/09 14:10:21 by Thibault Cheneviere                      */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ double get_seconds_from_last_modification(const char *file_path) {
 
         return difftime(now, t);
     }
-
     // Free memory
     free(cp_path);
 
